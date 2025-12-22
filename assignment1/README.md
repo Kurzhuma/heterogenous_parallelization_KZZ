@@ -58,10 +58,15 @@ Task 3 - Parallel Time: 0.0012616 s
 Task 4 - Sequential Average: 49.4568
 Task 4 - Sequential Time: 0.0109135 s
 Task 4 - Parallel Average: 49.4568
-Task 4 - Parallel Time: 0.0028257 s
+Task 4 - Parallel Time: 0.0028257 s!
+
+[img.png](img.png)
+![output.png](output.png)
+
+## Блок схема
 
 
-
+![Assignment1_block_scheme.png](Assignment1_block_scheme.png)
 ---
 
 ## Анализ результатов
