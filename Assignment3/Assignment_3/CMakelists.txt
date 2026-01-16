@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(Assignment3 LANGUAGES CXX CUDA)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CUDA_STANDARD 17)
+
+# Укажи архитектуру под свою карту:
+# 75 = RTX 20xx
+# 86 = RTX 30xx
+# 89 = RTX 40xx
+# 90 = H100 / Hopper
+
+set(CMAKE_CUDA_ARCHITECTURES 89)
+
+add_executable(assignment3 main.cu)
+
